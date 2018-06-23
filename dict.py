@@ -38,7 +38,7 @@ button1.pack()
 button2 = Button(bottomFrame, text='Quit',fg='red', command=quit)
 button2.pack()
 
-answer = Label(bottomFrame, text='')
+answer = Label(topFrame, text='')
 answer.pack()
 
 root.mainloop()
